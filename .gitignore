@@ -1,0 +1,10 @@
+data/raw/*
+data/interim
+data/interim/*
+data/processed/*
+!data/README.md
+results/_*.pkl
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/

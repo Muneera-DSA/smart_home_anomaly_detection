@@ -1,0 +1,55 @@
+{
+  "H1": {
+    "claim": "Gradient boosting (HGB) catches a larger share of anomalies per house than the timer rule at the same false-alert rate (1 per appliance-month)",
+    "n_houses": 18,
+    "median_diff": 0.01428571428571429,
+    "mean_diff": 0.033021608021608015,
+    "houses_better": 9,
+    "houses_worse": 3,
+    "p": 0.07448745988139581,
+    "p_holm": 0.07448745988139581,
+    "supported": false
+  },
+  "H2": {
+    "claim": "Gradient boosting (HGB) raises its alert earlier than the timer rule on anomalies both catch",
+    "n_events": 181,
+    "median_delay_ml_h": 2.1666666666666665,
+    "median_delay_rule_h": 3.0,
+    "events_earlier": 100,
+    "events_later": 46,
+    "p": 2.3918870453701526e-05,
+    "p_holm": 7.175661136110459e-05,
+    "supported": true
+  },
+  "H3": {
+    "claim": "Adding features relative to the appliance's own history raises per-house recall over raw behaviour only",
+    "n_houses": 18,
+    "median_diff": 0.17424242424242425,
+    "mean_diff": 0.1951924618591285,
+    "p": 0.0006758938070123212,
+    "p_holm": 0.0013517876140246425,
+    "supported": true
+  },
+  "H4": {
+    "claim": "Sensor-stuck events show lower power variation while 'running' than real stuck-on compressors",
+    "n_stuck": 60,
+    "n_fault": 238,
+    "median_std_stuck": 0.0,
+    "median_std_fault": 1.085131287574768,
+    "cliffs_delta": -0.9478991596638655,
+    "p": 1.9806748792146353e-30,
+    "p_holm": 9.903374396073176e-30,
+    "supported": true
+  },
+  "H5": {
+    "claim": "Cold appliances run a larger share of the time in summer than in winter",
+    "n_appliances": 32,
+    "median_summer": 0.4334637211194705,
+    "median_winter": 0.2849056746442165,
+    "appliances_higher_in_summer": 29,
+    "p": 1.1344440281391144e-05,
+    "p_holm": 4.5377761125564575e-05,
+    "supported": true
+  },
+  "best_ml": "Gradient boosting (HGB)"
+}

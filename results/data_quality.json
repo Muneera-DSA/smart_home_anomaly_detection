@@ -1,0 +1,154 @@
+{
+  "houses": 20,
+  "raw_rows": 129223484,
+  "days_mean": 543.8067361111109,
+  "minute_coverage_mean": 0.8799995793675436,
+  "minute_coverage_min": 0.7540972173791757,
+  "median_interval_s": 7.0,
+  "duplicate_timestamps": 4007394,
+  "missing_values": 11948241,
+  "negative_values": 0,
+  "impossible_readings_removed": 44149,
+  "impossible_share_of_appliance_readings": 3.7960936298888555e-05,
+  "annotation_rows": 337,
+  "annotation_duplicates": 1,
+  "annotation_end_before_start": [
+    [
+      15,
+      "Fridge-Freezer",
+      "05/10/2014 13:00",
+      "05/10/2014 09:00"
+    ],
+    [
+      16,
+      "Fridge-Freezer_2",
+      "10/04/2014 18:00",
+      "10/04/2014 09:00"
+    ]
+  ],
+  "annotation_kinds": {
+    "continuous_on": 179,
+    "sensor_stuck": 78,
+    "long_cycles": 67,
+    "other_behaviour": 13
+  },
+  "annotation_status_sure": 0.771513353115727,
+  "annotation_types": {
+    "freezer": 151,
+    "fridge_freezer": 132,
+    "fridge": 34,
+    "microwave": 6,
+    "dishwasher": 5,
+    "washing_machine": 3,
+    "tumble_dryer": 2,
+    "kettle": 2,
+    "electric_heater": 1,
+    "food_mixer": 1
+  },
+  "cold_share_of_annotations": 0.9406528189910979,
+  "shared_stuck_days": {
+    "2014-08-01": 11,
+    "2014-08-30": 6,
+    "2014-09-07": 5,
+    "2014-02-28": 2
+  },
+  "outage_reading_rates": [
+    {
+      "house": 1,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 12.53
+    },
+    {
+      "house": 2,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 13.04
+    },
+    {
+      "house": 3,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 14.92
+    },
+    {
+      "house": 4,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 14.17
+    },
+    {
+      "house": 7,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 13.34
+    },
+    {
+      "house": 8,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 12.62
+    },
+    {
+      "house": 10,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 13.16
+    },
+    {
+      "house": 11,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 15.1
+    },
+    {
+      "house": 17,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 12.78
+    },
+    {
+      "house": 19,
+      "readings_per_min_outage": 0.97,
+      "readings_per_min_week_before": 14.81
+    },
+    {
+      "house": 20,
+      "readings_per_min_outage": 0.98,
+      "readings_per_min_week_before": 12.59
+    }
+  ],
+  "events_in_reference_month": 6,
+  "cold_channels": 32,
+  "cold_houses": 19,
+  "appliance_hours": 417890,
+  "scored_hours": 347656,
+  "fault_events": 246,
+  "stuck_events": 68,
+  "fault_events_scoreable": 243,
+  "fault_hours": 5958,
+  "fault_hour_rate": 0.01728835690968444,
+  "alignment": {
+    "events": 132,
+    "best_shift_h": 0.0,
+    "curve": {
+      "-3.0": 0.031541905579832795,
+      "-2.75": 0.055791378674654,
+      "-2.5": 0.053756058781760374,
+      "-2.25": 0.07293438342861794,
+      "-2.0": 0.08095534352399004,
+      "-1.75": 0.08690772475652915,
+      "-1.5": 0.12373343151994223,
+      "-1.25": 0.12324146906290574,
+      "-1.0": 0.12187624237381313,
+      "-0.75": 0.13638784409511073,
+      "-0.5": 0.13868492564695623,
+      "-0.25": 0.1605829407833523,
+      "0.0": 0.16701583317527793,
+      "0.25": 0.12399820730066421,
+      "0.5": 0.07251264218477332,
+      "0.75": 0.017341774082498852,
+      "1.0": -0.008542826888383403,
+      "1.25": 0.0014313214108296018,
+      "1.5": 0.019186744494121544,
+      "1.75": 0.038197549263123035,
+      "2.0": 0.0342547948141005,
+      "2.25": 0.020022944702900735,
+      "2.5": -0.0011301560982753432,
+      "2.75": -0.019640012333624546,
+      "3.0": -0.02881408186208173
+    },
+    "conclusion": "annotation times are UTC"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fault_events_running": 238,
+  "stuck_events_running": 60,
+  "median_flat_frac": {
+    "fault": 0.13333333333333333,
+    "stuck": 1.0
+  },
+  "median_p_on_std": {
+    "fault": 1.085131287574768,
+    "stuck": 0.0
+  },
+  "event_auc_flat_frac": 0.9793067226890756,
+  "rule_hours": 3181,
+  "rule_precision_vs_stuck_labels": 0.6947500785916378,
+  "rule_share_on_fault_labels": 0.07041810751336058,
+  "stuck_events_caught": 59,
+  "stuck_events_scoreable": 65,
+  "fault_events_wrongly_flagged_as_stuck": 26,
+  "unlabelled_rule_hours_by_appliance": {
+    "H20-Freezer": 320,
+    "H3-Freezer": 161,
+    "H18-Fridge_garag": 77,
+    "H8-Freezer": 52,
+    "H16-Fridge-Freezer_1": 47,
+    "H4-Freezer": 13
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "additivity_max_abs_error": 6.217248937900877e-15,
+  "importance": {
+    "duty_6h": 1.0569,
+    "duty_24h": 0.9611,
+    "duty": 0.6429,
+    "run_ref": 0.4076,
+    "p_on_std": 0.1697,
+    "run_max": 0.1509,
+    "run_rel": 0.1305,
+    "rate": 0.101,
+    "duty_rel": 0.0976,
+    "duty_24h_rel": 0.0769,
+    "p_on": 0.0703,
+    "rate_rel": 0.0577,
+    "p_on_rel": 0.0447,
+    "flat_frac": 0.0392,
+    "duty_6h_rel": 0.0304,
+    "is_fridge_freezer": 0.0265,
+    "starts_rel": 0.0228,
+    "starts": 0.0141,
+    "is_freezer": 0.0109,
+    "coverage": 0.0001
+  },
+  "houses_explained": [
+    1,
+    2,
+    20
+  ],
+  "example": {
+    "appliance": "H1-Freezer_2",
+    "hour_utc": "2015-03-25 23:00:00",
+    "fault_probability": 0.9969863449986325,
+    "top_contributions": {
+      "duty_6h": 4.248,
+      "run_ref": 1.8,
+      "duty": 1.701,
+      "duty_24h": 1.21,
+      "p_on_std": 0.656,
+      "run_max": 0.624
+    },
+    "values": {
+      "duty_6h": 1.0,
+      "run_ref": 11.094147582697214,
+      "duty": 1.0,
+      "duty_24h": 0.5708333333333333,
+      "p_on_std": 0.19942493736743927,
+      "run_max": 436.0
+    }
+  }
+}

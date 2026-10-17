@@ -1,0 +1,101 @@
+{
+  "months_below_80pct_coverage": 0,
+  "duty_by_type": {
+    "freezer": 0.392,
+    "fridge": 0.227,
+    "fridge_freezer": 0.371
+  },
+  "normal_run_max_p50_p99": [
+    17.0,
+    209.0
+  ],
+  "feature_medians": {
+    "run_max": {
+      "appliance anomaly": 506.5,
+      "normal": 17.0,
+      "sensor stuck": 460.0
+    },
+    "duty_6h": {
+      "appliance anomaly": 1.0,
+      "normal": 0.342,
+      "sensor stuck": 1.0
+    },
+    "starts": {
+      "appliance anomaly": 0.0,
+      "normal": 1.0,
+      "sensor stuck": 0.0
+    },
+    "p_on_std": {
+      "appliance anomaly": 0.3310000002384186,
+      "normal": 7.249000072479248,
+      "sensor stuck": 0.0
+    },
+    "flat_frac": {
+      "appliance anomaly": 0.133,
+      "normal": 0.043,
+      "sensor stuck": 1.0
+    }
+  },
+  "events_per_house": {
+    "1": 18,
+    "2": 6,
+    "3": 64,
+    "4": 8,
+    "5": 5,
+    "6": 11,
+    "7": 14,
+    "8": 10,
+    "9": 5,
+    "10": 39,
+    "11": 8,
+    "12": 3,
+    "15": 1,
+    "16": 36,
+    "17": 13,
+    "18": 35,
+    "19": 3,
+    "20": 27,
+    "21": 8
+  },
+  "event_duration_h": {
+    "count": 314.0,
+    "mean": 29.32,
+    "std": 142.58,
+    "min": 0.83,
+    "25%": 4.85,
+    "50%": 8.0,
+    "75%": 15.0,
+    "max": 2295.0
+  },
+  "kind_by_type": {
+    "continuous_on": {
+      "freezer": 99,
+      "fridge": 6,
+      "fridge_freezer": 67
+    },
+    "long_cycles": {
+      "freezer": 19,
+      "fridge": 7,
+      "fridge_freezer": 35
+    },
+    "other_behaviour": {
+      "freezer": 4,
+      "fridge": 6,
+      "fridge_freezer": 3
+    },
+    "sensor_stuck": {
+      "freezer": 29,
+      "fridge": 14,
+      "fridge_freezer": 25
+    }
+  },
+  "hours_running_4h_plus": 8886,
+  "share_of_those_annotated": 0.6590141796083727,
+  "unannotated_4h_runs_by_appliance_top": {
+    "H21-Fridge-Freezer": 1774,
+    "H20-Freezer": 301,
+    "H3-Fridge-Freezer": 249,
+    "H19-FridgeFreezer": 149,
+    "H16-Fridge-Freezer_1": 145
+  }
+}

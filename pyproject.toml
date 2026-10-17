@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-energy"
+version = "1.0.0"
+description = "Anomaly detection in smart-home appliance functioning from IoT plug sensors, validated on fridges and freezers with real annotated anomalies in 19 UK homes (REFIT)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Muneera Mohamed" }]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 180
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]

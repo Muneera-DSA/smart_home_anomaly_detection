@@ -1,0 +1,802 @@
+{
+  "HGB - raw behaviour only": {
+    "recall_b1": 0.6995884773662552,
+    "false_b1": 0.7625680087051143,
+    "ap_hour": 0.7041943103736227,
+    "ap_hour_excl_long": 0.39314338038003943,
+    "per_house": [
+      {
+        "house": 1,
+        "fold": 0,
+        "events": 12,
+        "hit": 9,
+        "false_alerts": 14,
+        "months": 52.20821917808219
+      },
+      {
+        "house": 2,
+        "fold": 0,
+        "events": 5,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 14.342465753424657
+      },
+      {
+        "house": 20,
+        "fold": 0,
+        "events": 22,
+        "hit": 11,
+        "false_alerts": 17,
+        "months": 26.01917808219178
+      },
+      {
+        "house": 6,
+        "fold": 1,
+        "events": 11,
+        "hit": 10,
+        "false_alerts": 4,
+        "months": 15.08904109589041
+      },
+      {
+        "house": 12,
+        "fold": 1,
+        "events": 3,
+        "hit": 2,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 17,
+        "fold": 1,
+        "events": 9,
+        "hit": 4,
+        "false_alerts": 0,
+        "months": 27.07123287671233
+      },
+      {
+        "house": 18,
+        "fold": 1,
+        "events": 22,
+        "hit": 3,
+        "false_alerts": 4,
+        "months": 38.054794520547944
+      },
+      {
+        "house": 3,
+        "fold": 2,
+        "events": 52,
+        "hit": 45,
+        "false_alerts": 57,
+        "months": 33.632876712328766
+      },
+      {
+        "house": 11,
+        "fold": 2,
+        "events": 6,
+        "hit": 0,
+        "false_alerts": 2,
+        "months": 20.968493150684928
+      },
+      {
+        "house": 16,
+        "fold": 2,
+        "events": 35,
+        "hit": 32,
+        "false_alerts": 24,
+        "months": 28.275342465753425
+      },
+      {
+        "house": 21,
+        "fold": 2,
+        "events": 3,
+        "hit": 2,
+        "false_alerts": 100,
+        "months": 12.289041095890411
+      },
+      {
+        "house": 5,
+        "fold": 3,
+        "events": 5,
+        "hit": 4,
+        "false_alerts": 11,
+        "months": 18.327397260273973
+      },
+      {
+        "house": 7,
+        "fold": 3,
+        "events": 11,
+        "hit": 7,
+        "false_alerts": 5,
+        "months": 33.21780821917808
+      },
+      {
+        "house": 8,
+        "fold": 3,
+        "events": 4,
+        "hit": 2,
+        "false_alerts": 6,
+        "months": 30.612328767123287
+      },
+      {
+        "house": 19,
+        "fold": 3,
+        "events": 2,
+        "hit": 2,
+        "false_alerts": 3,
+        "months": 13.554794520547945
+      },
+      {
+        "house": 4,
+        "fold": 4,
+        "events": 4,
+        "hit": 4,
+        "false_alerts": 5,
+        "months": 33.05068493150685
+      },
+      {
+        "house": 9,
+        "fold": 4,
+        "events": 2,
+        "hit": 0,
+        "false_alerts": 1,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 10,
+        "fold": 4,
+        "events": 35,
+        "hit": 33,
+        "false_alerts": 62,
+        "months": 32.28904109589041
+      },
+      {
+        "house": 15,
+        "fold": 4,
+        "events": 0,
+        "hit": 0,
+        "false_alerts": 45,
+        "months": 15.009589041095891
+      }
+    ]
+  },
+  "HGB - raw + recent duty": {
+    "recall_b1": 0.7366255144032922,
+    "false_b1": 0.6693652520856004,
+    "ap_hour": 0.6188755332358056,
+    "ap_hour_excl_long": 0.43887706710559776,
+    "per_house": [
+      {
+        "house": 1,
+        "fold": 0,
+        "events": 12,
+        "hit": 5,
+        "false_alerts": 2,
+        "months": 52.20821917808219
+      },
+      {
+        "house": 2,
+        "fold": 0,
+        "events": 5,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 14.342465753424657
+      },
+      {
+        "house": 20,
+        "fold": 0,
+        "events": 22,
+        "hit": 8,
+        "false_alerts": 7,
+        "months": 26.01917808219178
+      },
+      {
+        "house": 6,
+        "fold": 1,
+        "events": 11,
+        "hit": 10,
+        "false_alerts": 0,
+        "months": 15.08904109589041
+      },
+      {
+        "house": 12,
+        "fold": 1,
+        "events": 3,
+        "hit": 2,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 17,
+        "fold": 1,
+        "events": 9,
+        "hit": 7,
+        "false_alerts": 4,
+        "months": 27.07123287671233
+      },
+      {
+        "house": 18,
+        "fold": 1,
+        "events": 22,
+        "hit": 8,
+        "false_alerts": 3,
+        "months": 38.054794520547944
+      },
+      {
+        "house": 3,
+        "fold": 2,
+        "events": 52,
+        "hit": 48,
+        "false_alerts": 111,
+        "months": 33.632876712328766
+      },
+      {
+        "house": 11,
+        "fold": 2,
+        "events": 6,
+        "hit": 0,
+        "false_alerts": 5,
+        "months": 20.968493150684928
+      },
+      {
+        "house": 16,
+        "fold": 2,
+        "events": 35,
+        "hit": 32,
+        "false_alerts": 33,
+        "months": 28.275342465753425
+      },
+      {
+        "house": 21,
+        "fold": 2,
+        "events": 3,
+        "hit": 2,
+        "false_alerts": 47,
+        "months": 12.289041095890411
+      },
+      {
+        "house": 5,
+        "fold": 3,
+        "events": 5,
+        "hit": 5,
+        "false_alerts": 36,
+        "months": 18.327397260273973
+      },
+      {
+        "house": 7,
+        "fold": 3,
+        "events": 11,
+        "hit": 9,
+        "false_alerts": 8,
+        "months": 33.21780821917808
+      },
+      {
+        "house": 8,
+        "fold": 3,
+        "events": 4,
+        "hit": 2,
+        "false_alerts": 3,
+        "months": 30.612328767123287
+      },
+      {
+        "house": 19,
+        "fold": 3,
+        "events": 2,
+        "hit": 2,
+        "false_alerts": 2,
+        "months": 13.554794520547945
+      },
+      {
+        "house": 4,
+        "fold": 4,
+        "events": 4,
+        "hit": 4,
+        "false_alerts": 4,
+        "months": 33.05068493150685
+      },
+      {
+        "house": 9,
+        "fold": 4,
+        "events": 2,
+        "hit": 2,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 10,
+        "fold": 4,
+        "events": 35,
+        "hit": 33,
+        "false_alerts": 50,
+        "months": 32.28904109589041
+      },
+      {
+        "house": 15,
+        "fold": 4,
+        "events": 0,
+        "hit": 0,
+        "false_alerts": 1,
+        "months": 15.009589041095891
+      }
+    ]
+  },
+  "HGB - relative-to-own-history only": {
+    "recall_b1": 0.5843621399176955,
+    "false_b1": 0.9574464998186435,
+    "ap_hour": 0.21743427357053452,
+    "ap_hour_excl_long": 0.19886869446382385,
+    "per_house": [
+      {
+        "house": 1,
+        "fold": 0,
+        "events": 12,
+        "hit": 11,
+        "false_alerts": 4,
+        "months": 52.20821917808219
+      },
+      {
+        "house": 2,
+        "fold": 0,
+        "events": 5,
+        "hit": 3,
+        "false_alerts": 2,
+        "months": 14.342465753424657
+      },
+      {
+        "house": 20,
+        "fold": 0,
+        "events": 22,
+        "hit": 6,
+        "false_alerts": 6,
+        "months": 26.01917808219178
+      },
+      {
+        "house": 6,
+        "fold": 1,
+        "events": 11,
+        "hit": 6,
+        "false_alerts": 6,
+        "months": 15.08904109589041
+      },
+      {
+        "house": 12,
+        "fold": 1,
+        "events": 3,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 17,
+        "fold": 1,
+        "events": 9,
+        "hit": 8,
+        "false_alerts": 5,
+        "months": 27.07123287671233
+      },
+      {
+        "house": 18,
+        "fold": 1,
+        "events": 22,
+        "hit": 3,
+        "false_alerts": 1,
+        "months": 38.054794520547944
+      },
+      {
+        "house": 3,
+        "fold": 2,
+        "events": 52,
+        "hit": 42,
+        "false_alerts": 54,
+        "months": 33.632876712328766
+      },
+      {
+        "house": 11,
+        "fold": 2,
+        "events": 6,
+        "hit": 6,
+        "false_alerts": 290,
+        "months": 20.968493150684928
+      },
+      {
+        "house": 16,
+        "fold": 2,
+        "events": 35,
+        "hit": 32,
+        "false_alerts": 20,
+        "months": 28.275342465753425
+      },
+      {
+        "house": 21,
+        "fold": 2,
+        "events": 3,
+        "hit": 0,
+        "false_alerts": 4,
+        "months": 12.289041095890411
+      },
+      {
+        "house": 5,
+        "fold": 3,
+        "events": 5,
+        "hit": 5,
+        "false_alerts": 9,
+        "months": 18.327397260273973
+      },
+      {
+        "house": 7,
+        "fold": 3,
+        "events": 11,
+        "hit": 9,
+        "false_alerts": 11,
+        "months": 33.21780821917808
+      },
+      {
+        "house": 8,
+        "fold": 3,
+        "events": 4,
+        "hit": 4,
+        "false_alerts": 7,
+        "months": 30.612328767123287
+      },
+      {
+        "house": 19,
+        "fold": 3,
+        "events": 2,
+        "hit": 2,
+        "false_alerts": 4,
+        "months": 13.554794520547945
+      },
+      {
+        "house": 4,
+        "fold": 4,
+        "events": 4,
+        "hit": 3,
+        "false_alerts": 24,
+        "months": 33.05068493150685
+      },
+      {
+        "house": 9,
+        "fold": 4,
+        "events": 2,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 10,
+        "fold": 4,
+        "events": 35,
+        "hit": 2,
+        "false_alerts": 5,
+        "months": 32.28904109589041
+      },
+      {
+        "house": 15,
+        "fold": 4,
+        "events": 0,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 15.009589041095891
+      }
+    ]
+  },
+  "HGB - all features": {
+    "recall_b1": 0.8641975308641975,
+    "false_b1": 0.8578890097932537,
+    "ap_hour": 0.541102463466022,
+    "ap_hour_excl_long": 0.3666480959483821,
+    "per_house": [
+      {
+        "house": 1,
+        "fold": 0,
+        "events": 12,
+        "hit": 12,
+        "false_alerts": 21,
+        "months": 52.20821917808219
+      },
+      {
+        "house": 2,
+        "fold": 0,
+        "events": 5,
+        "hit": 4,
+        "false_alerts": 19,
+        "months": 14.342465753424657
+      },
+      {
+        "house": 20,
+        "fold": 0,
+        "events": 22,
+        "hit": 20,
+        "false_alerts": 42,
+        "months": 26.01917808219178
+      },
+      {
+        "house": 6,
+        "fold": 1,
+        "events": 11,
+        "hit": 11,
+        "false_alerts": 7,
+        "months": 15.08904109589041
+      },
+      {
+        "house": 12,
+        "fold": 1,
+        "events": 3,
+        "hit": 3,
+        "false_alerts": 1,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 17,
+        "fold": 1,
+        "events": 9,
+        "hit": 9,
+        "false_alerts": 11,
+        "months": 27.07123287671233
+      },
+      {
+        "house": 18,
+        "fold": 1,
+        "events": 22,
+        "hit": 12,
+        "false_alerts": 11,
+        "months": 38.054794520547944
+      },
+      {
+        "house": 3,
+        "fold": 2,
+        "events": 52,
+        "hit": 50,
+        "false_alerts": 73,
+        "months": 33.632876712328766
+      },
+      {
+        "house": 11,
+        "fold": 2,
+        "events": 6,
+        "hit": 2,
+        "false_alerts": 7,
+        "months": 20.968493150684928
+      },
+      {
+        "house": 16,
+        "fold": 2,
+        "events": 35,
+        "hit": 34,
+        "false_alerts": 36,
+        "months": 28.275342465753425
+      },
+      {
+        "house": 21,
+        "fold": 2,
+        "events": 3,
+        "hit": 2,
+        "false_alerts": 41,
+        "months": 12.289041095890411
+      },
+      {
+        "house": 5,
+        "fold": 3,
+        "events": 5,
+        "hit": 5,
+        "false_alerts": 64,
+        "months": 18.327397260273973
+      },
+      {
+        "house": 7,
+        "fold": 3,
+        "events": 11,
+        "hit": 11,
+        "false_alerts": 23,
+        "months": 33.21780821917808
+      },
+      {
+        "house": 8,
+        "fold": 3,
+        "events": 4,
+        "hit": 3,
+        "false_alerts": 4,
+        "months": 30.612328767123287
+      },
+      {
+        "house": 19,
+        "fold": 3,
+        "events": 2,
+        "hit": 2,
+        "false_alerts": 10,
+        "months": 13.554794520547945
+      },
+      {
+        "house": 4,
+        "fold": 4,
+        "events": 4,
+        "hit": 4,
+        "false_alerts": 12,
+        "months": 33.05068493150685
+      },
+      {
+        "house": 9,
+        "fold": 4,
+        "events": 2,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 10,
+        "fold": 4,
+        "events": 35,
+        "hit": 26,
+        "false_alerts": 23,
+        "months": 32.28904109589041
+      },
+      {
+        "house": 15,
+        "fold": 4,
+        "events": 0,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 15.009589041095891
+      }
+    ]
+  },
+  "HGB - all features + calendar (rejected)": {
+    "recall_b1": 0.8353909465020576,
+    "false_b1": 0.9193180993833878,
+    "ap_hour": 0.5825273889387984,
+    "ap_hour_excl_long": 0.3506785140151681,
+    "per_house": [
+      {
+        "house": 1,
+        "fold": 0,
+        "events": 12,
+        "hit": 12,
+        "false_alerts": 12,
+        "months": 52.20821917808219
+      },
+      {
+        "house": 2,
+        "fold": 0,
+        "events": 5,
+        "hit": 4,
+        "false_alerts": 11,
+        "months": 14.342465753424657
+      },
+      {
+        "house": 20,
+        "fold": 0,
+        "events": 22,
+        "hit": 15,
+        "false_alerts": 34,
+        "months": 26.01917808219178
+      },
+      {
+        "house": 6,
+        "fold": 1,
+        "events": 11,
+        "hit": 11,
+        "false_alerts": 5,
+        "months": 15.08904109589041
+      },
+      {
+        "house": 12,
+        "fold": 1,
+        "events": 3,
+        "hit": 2,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 17,
+        "fold": 1,
+        "events": 9,
+        "hit": 9,
+        "false_alerts": 8,
+        "months": 27.07123287671233
+      },
+      {
+        "house": 18,
+        "fold": 1,
+        "events": 22,
+        "hit": 9,
+        "false_alerts": 6,
+        "months": 38.054794520547944
+      },
+      {
+        "house": 3,
+        "fold": 2,
+        "events": 52,
+        "hit": 49,
+        "false_alerts": 85,
+        "months": 33.632876712328766
+      },
+      {
+        "house": 11,
+        "fold": 2,
+        "events": 6,
+        "hit": 2,
+        "false_alerts": 6,
+        "months": 20.968493150684928
+      },
+      {
+        "house": 16,
+        "fold": 2,
+        "events": 35,
+        "hit": 34,
+        "false_alerts": 44,
+        "months": 28.275342465753425
+      },
+      {
+        "house": 21,
+        "fold": 2,
+        "events": 3,
+        "hit": 1,
+        "false_alerts": 60,
+        "months": 12.289041095890411
+      },
+      {
+        "house": 5,
+        "fold": 3,
+        "events": 5,
+        "hit": 5,
+        "false_alerts": 83,
+        "months": 18.327397260273973
+      },
+      {
+        "house": 7,
+        "fold": 3,
+        "events": 11,
+        "hit": 11,
+        "false_alerts": 38,
+        "months": 33.21780821917808
+      },
+      {
+        "house": 8,
+        "fold": 3,
+        "events": 4,
+        "hit": 4,
+        "false_alerts": 4,
+        "months": 30.612328767123287
+      },
+      {
+        "house": 19,
+        "fold": 3,
+        "events": 2,
+        "hit": 2,
+        "false_alerts": 12,
+        "months": 13.554794520547945
+      },
+      {
+        "house": 4,
+        "fold": 4,
+        "events": 4,
+        "hit": 4,
+        "false_alerts": 10,
+        "months": 33.05068493150685
+      },
+      {
+        "house": 9,
+        "fold": 4,
+        "events": 2,
+        "hit": 0,
+        "false_alerts": 0,
+        "months": 14.038356164383561
+      },
+      {
+        "house": 10,
+        "fold": 4,
+        "events": 35,
+        "hit": 29,
+        "false_alerts": 14,
+        "months": 32.28904109589041
+      },
+      {
+        "house": 15,
+        "fold": 4,
+        "events": 0,
+        "hit": 0,
+        "false_alerts": 2,
+        "months": 15.009589041095891
+      }
+    ]
+  }
+}

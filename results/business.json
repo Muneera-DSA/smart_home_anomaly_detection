@@ -1,0 +1,29 @@
+{
+  "events": 243,
+  "fault_hours": 5958,
+  "excess_kwh_median_event": 0.2475455284118652,
+  "excess_kwh_total": 197.50756094615267,
+  "excess_kwh_largest_event": 73.90968896974839,
+  "price_gbp_per_kwh": 0.15,
+  "response_time_h_assumed": 2,
+  "cost_gbp_median_event": 0.03713182926177978,
+  "cost_gbp_total": 29.626134141922897,
+  "Rule: compressor-on timer (run_max)": {
+    "events_caught": 190,
+    "fault_hours_cut": 4841.916666666666,
+    "share_of_fault_hours_cut": 0.8126748349558016,
+    "kwh_avoidable": 153.8956689547155,
+    "gbp_avoidable": 23.084350343207323,
+    "false_alerts_per_appliance_year": 14.13292709466812,
+    "alerts_on_frozen_sensors": 15
+  },
+  "Gradient boosting (HGB)": {
+    "events_caught": 210,
+    "fault_hours_cut": 4726.5,
+    "share_of_fault_hours_cut": 0.7933031218529708,
+    "kwh_avoidable": 153.7445965518492,
+    "gbp_avoidable": 23.061689482777382,
+    "false_alerts_per_appliance_year": 10.294668117519045,
+    "alerts_on_frozen_sensors": 17
+  }
+}
